@@ -1,0 +1,55 @@
+# Training command configuration for step4_generate_train_commands.py
+#
+# Fair-comparison note:
+# Keep the same batch size for the same model scale across all training sets.
+# For example, yolo26n should use the same batch for R, RC1, RC2, and RC1C2.
+
+defaults:
+  epochs: 100
+  imgsz: 640
+  optimizer: auto
+  lr0: 0.01
+  patience: 20
+  pretrained: true
+  workers: 8
+  cache: true
+  device: 0
+
+skip:
+  target_epoch: 100
+  retrain_if_incomplete: true
+
+model_settings:
+  yolo26n:
+    weights: experiment/models/yolo26n.pt
+    batch: 16
+  yolo26s:
+    weights: experiment/models/yolo26s.pt
+    batch: 8
+  yolo26m:
+    weights: experiment/models/yolo26m.pt
+    batch: 4
+
+train_sets:
+  rainbow:
+    enabled: true
+    yaml: experiment/configs/data_combo_R.yaml
+  RC1:
+    enabled: true
+    yaml: experiment/configs/data_combo_RC1.yaml
+  RC2:
+    enabled: true
+    yaml: experiment/configs/data_combo_RC2.yaml
+  RC1C2:
+    enabled: true
+    yaml: experiment/configs/data_combo_RC1C2.yaml
+
+# Optional per-run overrides. Use sparingly because changing parameters for only
+# one run can make comparisons less fair.
+#
+# Example:
+# run_overrides:
+#   yolo26m_RC1C2:
+#     batch: 2
+#     lr0: 0.005
+run_overrides: {}

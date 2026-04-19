@@ -1,0 +1,247 @@
+CLEAN DATASET REPORT
+======================================================================
+
+Source dataset: C:\Users\Xinyang\Desktop\AdvDeepLearning\Data\Raw_datasets\TennisBall_Detection\TennisBall_Detection
+Clean dataset:  C:\Users\Xinyang\Desktop\AdvDeepLearning\Data\Raw_datasets\TennisBall_Detection\TennisBall_Detection\TennisBall_Detection_clean
+
+Split: train
+----------------------------------------------------------------------
+Images folder exists: True
+Labels folder exists: True
+Original image count: 2288
+Original label count: 2258
+Paired samples kept:  2258
+Images missing labels: 30
+Labels missing images: 0
+
+[Images without labels]
+TennisBall37_jpg.rf.dadb4286f054abf97f82038778e7a5dc
+TennisBall37_jpg.rf.ed1df5dd92adfb18e93660237120396e
+TennisBall38_jpg.rf.1b5a80af0b5101c1a210901db57e4f7d
+TennisBall38_jpg.rf.4d1443d552bb35a94e5377fd6a5d95b8
+TennisBall38_jpg.rf.645fe5d7999a51d2286388e2d1da4051
+TennisBall38_jpg.rf.6f5fca402b137ce114bdf23e156032b7
+TennisBall38_jpg.rf.b9a8aed6f7e1a5ff4f6836e5fb7fdfe2
+TennisBall38_jpg.rf.d21a9e838b45b91e2a398118809bb38d
+TennisBall39_jpg.rf.4a04c519b91edda018293554b9ec1c35
+TennisBall39_jpg.rf.a7bf1673892f7170cf4fd8b123ece3af
+TennisBall85_jpg.rf.a0f3285c8c3c71625acbda3cfa6e8613
+TennisBall85_jpg.rf.c2431f6374d94b5a2993c56f7da2e1aa
+TennisBall85_jpg.rf.f26d82e0381dcaf20a89bcdf0c43cd71
+TennisBall85_jpg.rf.f5f2c3a45295a3709a5afc7c70fe1ea8
+TennisBall86_jpg.rf.097f4416bd4666be622b52a47e539559
+TennisBall86_jpg.rf.141b69368c842b1fa2abd2666bedf00a
+TennisBall86_jpg.rf.973f076b803fef41524f796ca138cc16
+TennisBall86_jpg.rf.c1bf3b1b87e2e4c6027a20c7504add43
+TennisBall86_jpg.rf.d3910ee723d8eb2a549475d5c3108219
+TennisBall86_jpg.rf.e3343c69377ed639bd2ef028e8c4eebe
+TennisBall87_jpg.rf.59aea23574552b0535af8e003489596a
+TennisBall87_jpg.rf.7854fb327b40bbf461a2c5e978433134
+TennisBall88_jpg.rf.0750bd4fb4caac90ad04cbf00ab265a3
+TennisBall88_jpg.rf.0e68f53cd8ef5d472b87bdb9f8257c3d
+TennisBall88_jpg.rf.712b65e8e607f4b7bbdb500f32efcf15
+TennisBall88_jpg.rf.cfd9c5d02719894600f72efb359d710b
+TennisBall88_jpg.rf.f27b69e6c5511b1f39b0a17608701ea1
+TennisBall88_jpg.rf.fa81693f36937ebac2b76fa90c536ccc
+TennisBall89_jpg.rf.40345b9c44c5bf0ba88a0637d1926307
+high_light8_jpg.rf.f44b9d7170545075b73ecfb5b737dec4
+
+Split: valid
+----------------------------------------------------------------------
+Images folder exists: True
+Labels folder exists: True
+Original image count: 197
+Original label count: 23
+Paired samples kept:  23
+Images missing labels: 174
+Labels missing images: 0
+
+[Images without labels]
+103_jpg.rf.21c228830b97c84c958361df480e4d2b
+103_jpg.rf.7ee9cbe77b51c04ccc21fd54062f07ce
+105_jpg.rf.b04310eead26f7e853614ac27d1ac6d8
+111c67a7509bbe51_jpg.rf.6cd95b526d792f4e0b7e923e05587acd
+111c67a7509bbe51_jpg.rf.9512e6948bfbb4b307e33d887bced3d3
+113_jpg.rf.3fb5a08e0759a5bca7e94c69295e220c
+113_jpg.rf.9ed9e7cefb46c6abbdcc88f7d0a78f8a
+117_jpg.rf.1800449f525d0eeb113f960c9a90c283
+117_jpg.rf.20199e9f2061765d1d02d13805cb77e5
+117_jpg.rf.78dc81a69a5051b6efafae65998890af
+123_jpg.rf.1c7ca33ced46e6c2b64944d327fd4a57
+123_jpg.rf.37043d58a17b17d4d417a1c1a0d363fe
+124_jpg.rf.06691caddc90d3c916f71fde9c8ac4b1
+124_jpg.rf.1e5bb1d4b7d342b7038fa718afb209c3
+125_jpg.rf.cdb2e5f195947b00bd675ad86226134f
+125_jpg.rf.f2d5162802ac529d7ecd6a20ae2a9a73
+127_jpg.rf.2b8a62cdb0b792ab22c29a0e43cb120e
+127_jpg.rf.c758b12d22e3c336cff8bd98800e316d
+128_jpg.rf.635dc6426d558bc47c5e0a438dff80dd
+128_jpg.rf.778a0f605b95df6932f9ad8760162194
+130_jpg.rf.1538d47566bb9236e1d1e43c9ad3083e
+130_jpg.rf.b44b9a9aae44ccf6c258e3a89ec52a6d
+131_jpg.rf.120d6832dadde0745adb7c884e5487a0
+132_jpg.rf.0d7d4e30aa8c3b5f4f5b760a72b2107e
+132_jpg.rf.2bcfd5cbe675a5fb6321421e9917202e
+133_jpg.rf.6027ed1112215ca153a9b042c9e55d74
+133_jpg.rf.9f74b7a16da2bff5dc88f63f4b5a55cc
+134_jpg.rf.752c269436c1b4db3def314bb69e7b74
+134_jpg.rf.d8f3bda3d812dc7cbfefe9c9b31a700d
+134_jpg.rf.f55fc62faa0c49d38d4a6be18660ba96
+134_jpg.rf.ff5a20b0a9489b290d39a2fa62ab5307
+136_jpg.rf.d09018fbd326c21553cedc0295b2f285
+138_jpg.rf.14787092a1c0dafbf0f19efe1ac12d10
+138_jpg.rf.33e5fca06e9a660a1805b0523d82d1fe
+139_jpg.rf.45cf73ef5bb16ce351e105b5f40ae9cc
+139_jpg.rf.e9acd54bd7cf019b4ef5356680afc935
+140_jpg.rf.6e469eddd902daa82a5518618d35671c
+140_jpg.rf.de3fdcc56dbc9cbe90c321f8e393d47c
+144da3784c2c8797_jpg.rf.6184e4132e8811c9569b8342d29ab4fa
+144da3784c2c8797_jpg.rf.c17d2f5d1db0c0df60050b26c01a7b4a
+146_jpg.rf.e2a5809cfc6adfcbddd8ec1cafd1fbb1
+152_jpg.rf.556bdd529065ffb664413c0becf106e9
+152_jpg.rf.dd2bed2b6b1eef62c1bebf6c1644557a
+153_jpg.rf.34b0e1953fb074103af26d02656c5481
+153_jpg.rf.41452218d89b9ffade7956535f1e877e
+154_jpg.rf.43e9609dc6c21a005ee96237269287b1
+154_jpg.rf.c3933dbf77dc2aca4ab2514f290b610e
+155_jpg.rf.174bec73697d399a56e823dc89fa9d73
+155_jpg.rf.49eebb88a315816d0f84ba8258ae2f73
+155_jpg.rf.57e6a60d7bfd7498668c5d85a1b7149a
+155_jpg.rf.d2de6b05b9e8e73e7933eb1db981e0da
+159_jpg.rf.0a5785142cac9f84ece2f37a32717f75
+159_jpg.rf.c4b9cc358e54cab73024dc68bb2c1fe9
+15_jpg.rf.06e247830bf4dd595c0b9604a1b8b91e
+15_jpg.rf.4336b8d1ce6ba9d0382f5e2bb38135e3
+165_jpg.rf.6240e5edc853ba93e2f8a54769800729
+165_jpg.rf.a7310085783f87b251c6a97f0fc10eca
+165_jpg.rf.b176a0a69b5e7d79be14b675784382e3
+165_jpg.rf.f1012b97764d27468af0f48ee974f3f6
+166_jpg.rf.256f36428b19d206f3be58b6ac029363
+166_jpg.rf.49adf573e159d013e5f75a67781ef2a4
+166_jpg.rf.5015942c7dbda746049d6dc22aea6649
+166_jpg.rf.fc3e025e1e2a03b54d6b36a1651aae03
+167_jpg.rf.2026983fdf9186dd210590b38edd069f
+167_jpg.rf.8ffc4c3feb62170a95d33aacfd7672ee
+167_jpg.rf.a7b49c8ee15c4a2c65a80e055db60ba0
+167_jpg.rf.e2574d0e9836cfc04131c2626970a324
+170_jpg.rf.523ac1cc57d847e32b160ee18b845c79
+170_jpg.rf.dba21ad857c91bfca0b523a69e9c1af1
+174_jpg.rf.91db0f809b22879f4d54b91c11889a7f
+174_jpg.rf.96aa46ecb771991d5d3b9f7dd9c221a2
+177_jpg.rf.3c38dc5538056960b5ff07431fe52666
+177_jpg.rf.e0d09536f1a2d3e9d3a92dae4a47f327
+183_jpg.rf.2f50a2ea397f90c73a981821c9b21d1c
+183_jpg.rf.35dd615eae3b51daa1cf484a1b4fd338
+186_jpg.rf.0c2c74c56b587d7f6fe54817e374d83f
+186_jpg.rf.3f390b847fd8eec1fcacfb34f83a178d
+187_jpg.rf.5eaf30b69256d1675440ae8d3c08d3d0
+187_jpg.rf.f7a0a86246d5630f00895b89b6068b6d
+189_jpg.rf.385c21afcf06d9723ddb533e47717a36
+189_jpg.rf.bbd4407bf7cdaa0f2f597f431e8832cf
+18_jpg.rf.32ab526f5b2c1d448cc489123aaf5342
+192_jpg.rf.a769fd264757e8326c96b6bfbaa639f1
+192_jpg.rf.bea692251360f7ddb32e051e674e930e
+195_jpg.rf.88a923e037a5476c1f74aecc3551c381
+195_jpg.rf.9ffbd2636b991f92588f863fc53f8985
+199_jpg.rf.4a20b1f83ba5ba7ad14f35bb9f1a9187
+199_jpg.rf.6d199c307d269eb0e776e76e9381234e
+19_jpg.rf.58b934edcd3e1b727cf259ecfaa11a7a
+19_jpg.rf.a38a1d851134f752974e7692955ec39f
+20_jpg.rf.61fda3e22f1a6c0987f2358980ddf2fb
+20_jpg.rf.9dca97cd45a796b6e5935b12eb74fc23
+211_jpg.rf.160c77cdc33cdc2059f86df60eccc4bf
+211_jpg.rf.739ff6cbb0fde00384546be99c646888
+213_jpg.rf.107254ca6fd4f9bba67a9d066a5a6316
+213_jpg.rf.85f7c32e28f0f1447c3baaffd079a0b9
+218_jpg.rf.3700b27783b894c9f1d8fac0d87366d5
+218_jpg.rf.4f31b3e957ec650e1fabb7ee05dfd863
+220_jpg.rf.dbc0be43d0c177bdadbac611d12aa3f8
+220_jpg.rf.f4c7adf76ac2eaba7073854565ec4aa0
+224_jpg.rf.3baca97a4cb38525ecebb36d409a33a3
+224_jpg.rf.ec678d135daed9b01b4c3ca671e8cc40
+229_jpg.rf.43952de1bb872ca18f5e0c54cfb407d5
+22_jpg.rf.2e2930dfcef2adec6d74e615f7392a09
+22_jpg.rf.720e9f3cf8148b47736d2e1533d9d4fd
+230_jpg.rf.4283f2362aa6a750de0029b56dabab72
+230_jpg.rf.6fd06575cc102c954ec8353ae2761000
+233_jpg.rf.3fb3b462e208db61bad3a39bf5f6a84b
+233_jpg.rf.3fc824ff973f77d2d51cc29aab9d38fc
+235_jpg.rf.0f9b6750581e4d1c89232358f5097a04
+235_jpg.rf.63002b7119517a30f3a2d1851f81f34c
+237_jpg.rf.54fdab094dc65bf37620adb4711d70c0
+237_jpg.rf.b7bc6f240f2b4c2aebc6cfc1f627a234
+238-0_jpg.rf.0156ac9f26f01d5ca3f2f73ad8fed6e8
+238-0_jpg.rf.1d0014094e12b29d279060f89d6408b2
+239-0_jpg.rf.4bf23c28d7217a8da70da2460b443c10
+239-0_jpg.rf.c6e662c73db60a0e9fa63b452b8c4052
+239_jpg.rf.544c5833adb546ef8189de21ae4424a1
+239_jpg.rf.72037b953410e43b45b66c4eee37f98b
+241_jpg.rf.abd189e197ca24b0d05061362b06947a
+241_jpg.rf.ebbe14c955f995c2d7981dd51f8748bb
+242_jpg.rf.17ac74627c73c3e3cc9073e01bc15171
+242_jpg.rf.945df80c0664e9ea7735a23024f375ca
+25_jpg.rf.0361d4e4c684bd853915f2c19f2e85c0
+25_jpg.rf.f9e7ce4e79b00ff5ad3c8bae6b03be2b
+26_jpg.rf.1b5ace2b0f42c8bcc9d7a47db68f1c36
+26_jpg.rf.db5acc72d4b58fc8e4ebce40f69125a6
+27_jpg.rf.7f2b03bf7d2d2448bd91edad923f682c
+28_jpg.rf.0f47a2b281837e689b5d58f427f53921
+28_jpg.rf.8b1f81b93a7d7621d4c2ebd692e09f8d
+2_jpg.rf.17a0bf9c7624c370b23f1890dc422623
+31_jpg.rf.a42c834e5368d18568ce3219e9ba8917
+TennisBall45_jpg.rf.3c8666fabf3269bafcb4654b218f16eb
+TennisBall45_jpg.rf.58b1817302a2aa65fb1d8894e1f14c73
+TennisBall47_jpg.rf.36a96d18ffe27006befe47cb53ec799f
+TennisBall47_jpg.rf.70c8d27db98da980e20ddb818dd7211a
+TennisBall47_jpg.rf.a154cd413140a87977465e1527964d8a
+TennisBall47_jpg.rf.beed040ce8f2090543a93382844ad3f5
+TennisBall51_jpg.rf.c74071a5174eba095c384ba48bb0c9a9
+TennisBall51_jpg.rf.ff88c69c2c72116903068fd89f144091
+TennisBall52_jpg.rf.38f9c4a48673720adf15d780c186afe9
+TennisBall52_jpg.rf.3ff411068df0c543b2021a729c58ca2b
+TennisBall52_jpg.rf.89341a65758aa4b684197e2f9d7c22ae
+TennisBall53_jpg.rf.0f7a3ca5631072880c2292a54316c684
+TennisBall53_jpg.rf.82a4f0cc4df6ccd090412eec8a9f38af
+TennisBall53_jpg.rf.abfc0c5008ad8e6bfc5bae689eee542d
+TennisBall53_jpg.rf.c2ed146e12d86fdd58171af4d3947acf
+TennisBall55_jpg.rf.02445756a08fbd8cbd9d09fed724f8f6
+TennisBall55_jpg.rf.0d37392fd2ee583d35b0ff7be179bb69
+TennisBall57_jpg.rf.13c8d5e1dd9b744d3a06e6987b1c5d1e
+TennisBall57_jpg.rf.fa9d3a54f35234733af956c9cb532998
+TennisBall70_jpg.rf.5ccae971ee68c6016353093d07ae7c53
+TennisBall70_jpg.rf.f0216c6b0c1aa0da976e2c5a6ff05995
+TennisBall73_jpg.rf.44a57da8fccb88f2b25bdb0d0275e360
+TennisBall73_jpg.rf.f41ab25cdfda2aed39eb958a1e93753a
+TennisBall75_jpg.rf.c7aa2f2778d583c07f6d349e6782094f
+TennisBall80_jpg.rf.503e3b54c7d5239591b248eb7024babb
+TennisBall80_jpg.rf.a69268867f042f9b9e4142b0eb66e9f2
+TennisBall82_jpg.rf.5a7eaa293fb5ef2263e6fe90c695930d
+TennisBall82_jpg.rf.7c566b0c25e15f660945e0504ce5f946
+TennisBall82_jpg.rf.c94d0c38a5add0d6a24d7c41ed3b810b
+TennisBall82_jpg.rf.ed07773ee280f0ff8fb5ce00a8056c28
+TennisBall83_jpg.rf.7b34b7cca63396a47587364d9e0337d6
+TennisBall83_jpg.rf.e65c5130bc2e6699c49b0d9c999f9ebd
+TennisBall87_jpg.rf.85a249686698469612f0fb375bc42098
+TennisBall88_jpg.rf.70eaa4730cf9f91308e552f9dd8996f9
+TennisBall89_jpg.rf.4b15e96804e858463150b848759361c5
+TennisBall91_jpg.rf.1bd24676c328a704900b15a2af1c1e82
+TennisBall91_jpg.rf.c4a6d6ceb44aa441b2c0ac9851436e90
+TennisBall92_jpg.rf.5ae9d466a71a29d363654ede65df8d9f
+TennisBall92_jpg.rf.dc2039aea598462a3a96ef9d7b438403
+TennisBall97_jpg.rf.5cac2f8581372400d070fddb33d03aee
+TennisBall99_jpg.rf.929964202a2982123931b0d0830f3361
+TennisBall99_jpg.rf.ba66c25372668257dba8c09d9c216ec8
+
+Split: test
+----------------------------------------------------------------------
+Images folder exists: True
+Labels folder exists: True
+Original image count: 310
+Original label count: 310
+Paired samples kept:  310
+Images missing labels: 0
+Labels missing images: 0
+
+======================================================================
+Total paired samples copied: 2591
+Finished.

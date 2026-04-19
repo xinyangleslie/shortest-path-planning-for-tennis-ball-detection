@@ -1,0 +1,5 @@
+path: ../dataset_80_20
+train: images/train
+val: images/val
+nc: 1
+names: [tennis_ball]
