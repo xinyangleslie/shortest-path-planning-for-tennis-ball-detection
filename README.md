@@ -6,7 +6,7 @@ The system detects tennis balls from RGB-D camera data or recorded RealSense `.b
 
 ---
 
-## Demo Video
+## Demo Videos
 Onedrive link: https://udmercy0-my.sharepoint.com/:f:/g/personal/zhangxi24_udmercy_edu/IgCZ2shAcn4mRbNtpDvOr5nhAZmkGUGDbKtYcdDAstCpptk?e=F6iF4G
 
 ## Project Overview
@@ -462,7 +462,6 @@ University of Detroit Mercy
 
 ---
 
-## License
 
 
 
