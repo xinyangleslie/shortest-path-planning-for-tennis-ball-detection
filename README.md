@@ -32,7 +32,7 @@ TurtleBot route simulation
 ```
 
 
-![System Methodology](Demo Videos/Methodology.png)
+![System Methodology](Demo/Methodology.png)
 
 
 ---
@@ -42,21 +42,21 @@ TurtleBot route simulation
 ### Detection Demo
 
 
-![YOLO + CV Detection](Demo Videos/YOLO_CV.png)
+![YOLO + CV Detection](Demo/YOLO_CV.png)
 
 
 
-[Detection Demo Video](Demo Videos/video2.mp4)
+[Detection Demo Video](Demo/video2.mp4)
 
 
 ### Path Planning Demo
 
 
-![Path Planning](Demo Videos/path_planning.png)
+![Path Planning](Demo/path_planning.png)
 
 
 
-[Path Planning Demo Video](Demo Videos/Media1.mp4)
+[Path Planning Demo Video](Demo/Media1.mp4)
 
 
 ---
@@ -90,7 +90,7 @@ AdvDeepLearning/
 │   └── report source files and figures
 │
 ├── Demo/
-│   └── demo videos and screenshots
+│   └── Demo and screenshots
 │
 ├── Tennis_Ball_Detection.pdf
 └── README.md
@@ -249,7 +249,7 @@ The visualization includes:
 - Current target marker
 
 
-![RViz2 Visualization](Demo Videos/path_planning.png)
+![RViz2 Visualization](Demo/path_planning.png)
 
 ---
 
