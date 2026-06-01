@@ -45,8 +45,16 @@ TurtleBot route simulation
 ![YOLO + CV Detection](Demo/YOLO_CV.png)
 
 
+[Path Planning Demo Video](Demo/Media1.mp4)
 
-[Detection Demo Video](Demo/video2.mp4)
+### Detection Demo v2
+
+
+![YOLO + CV Detection v2](Demo/YOLO_CV_2.png)
+
+
+[Path Planning Demo Video v2](Demo/Media2.mp4)
+
 
 
 ### Path Planning Demo
@@ -55,8 +63,8 @@ TurtleBot route simulation
 ![Path Planning](Demo/path_planning.png)
 
 
+[Detection Demo Video](Demo/video2.mp4)
 
-[Path Planning Demo Video](Demo/Media1.mp4)
 
 
 ---
