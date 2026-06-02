@@ -1,14 +1,13 @@
 """
-rviz_video_demo.py — ROS2 node: UDP ball positions → RViz2 MarkerArray
+rviz_video_demo_v2.py — ROS2 node: UDP ball positions → RViz2 MarkerArray (v2)
 
-Receives JSON ball position packets from detect_pipeline_a/b.py on UDP port 5005,
-converts camera-frame coordinates to world coordinates, and publishes spherical
-markers on /tennis_markers at 20 Hz. Ball positions are retained in a cache
-after the detection script stops so the path planning node can read them.
+Companion node for detect_video_demo_v2.py. Same UDP→marker pipeline as
+rviz_video_demo.py with additional scene geometry: court boundary, net line,
+0.5 m grid overlay, distance labels, and coordinate axes.
 
 Run with system Python (not conda):
     source /opt/ros/jazzy/setup.bash
-    python3 rviz_video_demo.py
+    python3 rviz_video_demo_v2.py
 """
 
 import json
@@ -47,12 +46,12 @@ def cam_to_world(xc, yc, zc):
     dx = xc / zc   # normalised horizontal direction
     dy = yc / zc   # normalised vertical direction
     denom = _sin_t + dy * _cos_t
-    if denom <= 1e-6:              # ray parallel to or directed away from ground
+    if denom <= 1e-6:              # ray parallel to or away from ground
         return 0.0, 0.0, 0.0
     t = CAMERA_HEIGHT / denom      # scale to ground-plane intersection
     X = t * (_cos_t - dy * _sin_t)
     Y = -t * dx
-    return X, Y, 0.0               # Z 强制为地面
+    return X, Y, 0.0               # Z clamped to ground
 
 
 def sphere_mid(track_id): return track_id * 2
@@ -75,7 +74,7 @@ class MarkerFromUDP(Node):
         self.cached_points  = {}
         self.first_callback = True   # send DELETEALL on first tick to clear stale markers
 
-        # court geometry is static — build once, reuse every tick
+        # court geometry is static — build once, stamp updated every tick
         self.scene_markers = self._build_scene_markers()
 
         self.get_logger().info("MarkerFromUDP started")
@@ -290,7 +289,7 @@ class MarkerFromUDP(Node):
             }
 
         # While UDP is live, evict balls not seen for MARKER_HOLD_LIVE seconds.
-        # After UDP stops, leave cache intact so the path planning node can read it.
+        # After UDP stops, freeze the cache for the path planning node.
         if got_packet:
             for old_id in [tid for tid in list(self.cached_points)
                            if tid not in current_packet_ids
@@ -300,7 +299,7 @@ class MarkerFromUDP(Node):
         marker_array = MarkerArray()
         current_ids  = set()
 
-        # DELETEALL on first publish to clear any leftover markers from a previous run
+        # DELETEALL on first publish to remove markers left from a previous run
         if self.first_callback:
             clear = Marker()
             clear.action = Marker.DELETEALL
