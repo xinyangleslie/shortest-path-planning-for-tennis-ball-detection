@@ -1,0 +1,7 @@
+method,n_trials,mean_planned_m,mean_actual_m,mean_savings_m,mean_incidental_%,mean_n_incidental,mean_n_replans,mean_n_kicks,mean_planning_ms
+greedy_nn,10,27.254,27.237,0.017,12.8,6.4,9.0,9.0,0.55
+nn_2opt,10,23.590,23.294,0.296,12.0,6.0,8.8,8.7,13.37
+boustrophedon,10,31.868,31.775,0.093,23.6,11.8,7.3,6.7,0.07
+simulated_annealing,10,23.116,23.152,-0.036,12.2,6.1,8.0,7.9,455.16
+kmeans_nn_2opt,10,25.121,25.393,-0.272,12.8,6.4,8.7,8.5,2.45
+kmeans_exact_centroid,10,25.199,25.460,-0.260,13.0,6.5,8.4,8.2,2.47
