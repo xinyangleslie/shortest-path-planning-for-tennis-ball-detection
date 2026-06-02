@@ -314,10 +314,10 @@ python detect_video_demo_v2.py \
 | ⑦ Ground Projection | 3D position debug overlay |
 | ⑧ Bird's Eye View | Top-down court map with tracked IDs |
 
-![YOLO + CV Detection v2](~/Demo/YOLO_CV_2.png)
+![YOLO + CV Detection v2](../../Demo/YOLO_CV_2.png)
 
 
-[Path Planning Demo Video v2](~/Demo/Media2.mp4)
+[Path Planning Demo Video v2](../../Demo/Media2.mp4)
 
 ### Hough Comparison Visualization
 
